@@ -15,5 +15,18 @@ The project's main focus is on implementing the most accurate and profitable tra
 
 
 ## Stack
+**`pandas` `numpy` `sklearn` `pandas_ta` `ta` `binance`**
 
+## Methods and Models
+**`LogisticRegression` `RandomForestClassifier` `GradientBoostingClassifier` `Upsampling` `Downsampling` `Scaling` `AUC_ROC` `F1`**
+
+## Plan
+1. Get access to binance account
+2. Upload data on a 5-minute timeframe
+3. Calculate trading strategies (RSI, Stochastic Oscillator, MACD, Bollinger Bands, Keltner Channel)
+4. For each strategy calculate percentage of calls for the whole dataframe (call is "1" – buy the stock)
+5. Calculate percentage of true calls (it is common that trading strategies are wrong time to time)
+6. Check combinations of the most profitable strategies
+7. Train the model based on the results from part 5) and 6)
+8. Obtain the model that predicts the truthfullness of a call for a particular trading strategy
 
