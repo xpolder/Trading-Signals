@@ -20,6 +20,14 @@ The project's main focus is on implementing the most accurate and profitable tra
 ## Methods and Models
 **`LogisticRegression` `RandomForestClassifier` `GradientBoostingClassifier` `Upsampling` `Downsampling` `Scaling` `AUC_ROC` `F1`**
 
+## Data
+**Here's the brief description of the data at our disposal**
+* `open` – open price
+* `close` – close price
+* `high` – the highest price on a 5-minute timeframe
+* `low` – the lowest price on a 5-minute timeframe
+* `volume` – the volume of the stock
+
 ## Plan
 1. Get access to binance account
 2. Upload data on a 5-minute timeframe
